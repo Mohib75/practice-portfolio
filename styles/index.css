@@ -27,6 +27,26 @@
 	font-weight: 700;
 }
 
+.section-title {
+	color: var(--Dark-01);
+	text-align: center;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 20px;
+}
+
+.section-description {
+	color: var(--Dark-03);
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
 /* navbar related styles */
 .navbar {
 	display: flex;
@@ -122,28 +142,29 @@
 }
 
 /* main section styles */
+.main {
+	max-width: 1140px;
+	margin: 0 auto;
+}
 
 /* about section styles */
 .about {
-	width: 1140px;
+	margin: 100px 0;
+	padding: 150px 157px;
 	border-radius: 10px;
 	background: #fff8f3;
 }
 
-.section-title {
-	color: var(--Dark-01);
-	text-align: center;
-	font-size: 35px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
+.about-info-container {
+	display: flex;
+	justify-content: space-between;
 }
 
-.section-description {
-	color: var(--Dark-03);
+.about-info {
 	text-align: center;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 30px;
+}
+
+/* what-i-do-description */
+.what-i-do-description {
+	margin: 30px 0 50px 0;
 }
