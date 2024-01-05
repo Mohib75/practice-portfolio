@@ -24,7 +24,11 @@
 .btn {
 	border: 0;
 	border-radius: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-style: normal;
 	font-weight: 700;
+	line-height: normal;
 }
 
 .section-title {
@@ -251,5 +255,53 @@
 
 .download-cv {
 	text-align: center;
-	margin-top: 50px;
+	margin: 50px 0;
+}
+
+/* footer style  */
+.footer {
+	display: flex;
+	background: #fff8f3;
+	padding: 130px 200px;
+	justify-content: center;
+}
+
+.footer-columns {
+	max-width: 1140px;
+	display: flex;
+	gap: 100px;
+	margin-top: 100px;
+}
+
+.footer-column {
+	width: 50%;
+}
+
+.footer-column .section-description {
+	text-align: left;
+}
+
+.social-links a {
+	margin-right: 25px;
+}
+
+.contact input,
+textarea {
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+	padding: 18px 35px;
+	color: var(--Dark-03, #757575);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	border: 0;
+	border-radius: 5px;
+	background: var(--White-Color);
+}
+
+.contact textarea {
+	height: 180px;
+	resize: none;
 }
