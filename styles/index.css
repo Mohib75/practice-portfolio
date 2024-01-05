@@ -13,17 +13,17 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
 }
 
 .body {
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
 }
 
 /* shared styles */
 .btn {
 	border: 0;
 	border-radius: 5px;
-	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 }
 
@@ -32,7 +32,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-family: "Open Sans", sans-serif;
 }
 
 .nav-title {
@@ -75,17 +74,20 @@
 /* header related styles */
 .header {
 	background: #fff8f3;
+	background-image: url("../images/header_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
 
 .banner {
-	padding: 30px 30px 30px 150px;
-	font-family: "Open Sans", sans-serif;
+	padding: 30px 30px 0 150px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .banner-content {
+	max-width: 500px;
 }
 
 .banner-greeting {
@@ -117,4 +119,31 @@
 
 .profile-picture {
 	width: 500px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+	width: 1140px;
+	border-radius: 10px;
+	background: #fff8f3;
+}
+
+.section-title {
+	color: var(--Dark-01);
+	text-align: center;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.section-description {
+	color: var(--Dark-03);
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
 }
