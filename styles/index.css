@@ -29,6 +29,7 @@
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
+	padding: 18px 35px;
 }
 
 .section-title {
@@ -56,6 +57,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 30px 180px 0 150px;
 }
 
 .nav-title {
@@ -90,9 +92,15 @@
 }
 
 .primary-button {
-	padding: 18px 35px;
 	color: var(--White-Color);
 	background: var(--orange);
+}
+
+.non-primary-button {
+	color: var(--orange);
+	background: #fff8f3;
+	border: 1px solid var(--orange);
+	margin-left: 10px;
 }
 
 /* header related styles */
@@ -101,6 +109,7 @@
 	background-image: url("../images/header_bg.png");
 	background-repeat: no-repeat;
 	background-position: bottom right;
+	position: relative;
 }
 
 .banner {
@@ -143,6 +152,16 @@
 
 .profile-picture {
 	width: 500px;
+}
+
+.banner-img {
+	position: absolute;
+	top: 38px;
+	height: 100%;
+}
+
+.banner-img img {
+	height: 94.5%;
 }
 
 /* main section styles */
